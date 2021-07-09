@@ -11,6 +11,7 @@ press Ctrl+Alt+T to open terminal. When it opens, follow the below steps
 sudo nano /etc/default/grub
 ```
 Press **Enter** ,This opens Grub boot loader config file with text editor
+<p align="left"> <img src="https://github.com/shamim4s/linux-guide/raw/master/assets/1nano-grub.JPG" alt="shamim4s" /> </p>
 
 
 ###### Step 02 :
@@ -22,6 +23,9 @@ Change ```GRUB_CMDLINE_LINUX=””``` to ```GRUB_CMDLINE_LINUX=”text”```, t
 Uncomment this line ```#GRUB_TERMINAL=console```, by removing the # at the beginning, this makes Grub Menu into real black & white Text Mode (without background image)
 
 **Now Save the changes By ```Ctrl+X``` , then ```Y```, Then ```Enter```**
+
+<p align="left"> <img src="https://github.com/shamim4s/linux-guide/raw/master/assets/2nano-grub.JPG" alt="shamim4s" /> </p>
+
 
 ###### Step 03 :
 After saved the changes, update grub via command:

@@ -35,7 +35,7 @@ sudo update-grub
 sudo systemctl enable multi-user.target --force
 sudo systemctl set-default multi-user.target
 ```
-
+<p align="left"> <img src="https://github.com/shamim4s/linux-guide/raw/master/assets/3update-grub.JPG" alt="shamim4s" /> </p>
 ###### Step 04 :
 Restart your ubuntu,and it will start on terminal mode..
 ** You can start using on terminal mode **
@@ -43,6 +43,12 @@ Restart your ubuntu,and it will start on terminal mode..
 
 ###### Step 05 :
 After restart you can login to you Ubuntu by your **username** or **root** (if you have enabled before)
+
+
+<p align="left"> <img src="https://github.com/shamim4s/linux-guide/raw/master/assets/4firstboot.JPG" alt="shamim4s" /> </p>
+or
+<p align="left"> <img src="https://github.com/shamim4s/linux-guide/raw/master/assets/5firstboot.JPG" alt="shamim4s" /> </p>
+
 
 Now check what IP-Address ubuntu using by any of these command
 ```
@@ -52,13 +58,21 @@ or
 ```
 ip a
 ```
+
+<p align="left"> <img src="https://github.com/shamim4s/linux-guide/raw/master/assets/6ip-address.JPG" alt="shamim4s" /> </p>
 When you will get your IP-Address you can login ssh via that IP-Address
 if you didnt enable ssh login please check how to enable ssh login for Ubuntu..
+
+Turnoff your ubuntu and start again, Now you can start ubuntu in headless mode, so it will dont show any extra windows like hiddenly running ubuntu on backgroud. you can see ubuntu is running on preview panel. 
+<p align="left"> <img src="https://github.com/shamim4s/linux-guide/raw/master/assets/7run-headless.jpg" alt="shamim4s" /> </p>
+<p align="left"> <img src="https://github.com/shamim4s/linux-guide/raw/master/assets/8sruuning-headless.jpg" alt="shamim4s" /> </p>
 
 open your windows command promt and login to your Ubuntu by SSH command  (eg. ssh root@192.168.1.103)
 ```
 ssh root@ip-address 
 ```
+<p align="left"> <img src="https://github.com/shamim4s/linux-guide/raw/master/assets/9connectssh.JPG" alt="shamim4s" /> </p>
+
 
 ###### Step 06 : 
 ** This step only for those who really want to remove completely all GUI application from Ubundu **
@@ -88,6 +102,8 @@ libgnomekbd8 libgnomekbd-common libgnome-menu-3-0 libgnome-todo libgoa-1.0-0b \
 libgoa-1.0-common libpam-gnome-keyring libsoup-gnome2.4-1 libsoup-gnome2.4-1 \
 nautilus-extension-gnome-terminal pinentry-gnome3 yaru-theme-gnome-shell
 ```
+<p align="left"> <img src="https://github.com/shamim4s/linux-guide/raw/master/assets/10remove-all-gui-app.JPG" alt="shamim4s" /> </p>
+
 
 ###### Step 07 : 
 It will ask you for confirmation type 
@@ -95,15 +111,39 @@ It will ask you for confirmation type
 
 will take some time to remove all GUI applications..
 
+<p align="left"> <img src="https://github.com/shamim4s/linux-guide/raw/master/assets/11-it-will-ask-confirmation.JPG" alt="shamim4s" /> </p>
+
 ###### Step 08 : 
 after finish your need to freeup your all unwanted spaces by this command
 
 ```
 sudo apt autopurge
 ```
+
+<p align="left"> <img src="https://github.com/shamim4s/linux-guide/raw/master/assets/12autopurge.JPG" alt="shamim4s" /> </p>
+
 ###### Step 09 : 
 It will ask you for confirmation again type 
 ```Y```
+
+
+<p align="left"> <img src="https://github.com/shamim4s/linux-guide/raw/master/assets/13autopurge-confirmation.JPG" alt="shamim4s" /> </p>
+
+
+<br />
+## Finally your Ubuntu is now Ubuntu Minimal version...
+
+
+<br />
+
+
+
+<br />
+
+
+
+<br />
+
 
 
 

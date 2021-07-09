@@ -75,9 +75,9 @@ ssh root@ip-address
 
 
 ###### Step 06 : 
-** This step only for those who really want to remove completely all GUI application from Ubundu **
+**This step only for those who really want to remove completely all GUI application from Ubundu**
 
-Type of copy this command to your terminal :  
+Type or copy this command to your terminal :  
 ```
 sudo apt purge adwaita-icon-theme gedit-common gir1.2-gdm-1.0 \
 gir1.2-gnomebluetooth-1.0 gir1.2-gnomedesktop-3.0 gir1.2-goa-1.0 \

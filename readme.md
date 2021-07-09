@@ -1,4 +1,11 @@
-# How to Boot Ubuntu into Text Mode / Console / Command Line for low-spec Computer  
+## How to Boot Ubuntu into Text Mode / Console / Command Line for low-spec Computer  
+
+
+<br />
+
+
+
+<br />
 
 
 
@@ -8,10 +15,33 @@
 ## Method 02 :
 
 
-## Contributing
+<br />
+
+
+
+<br />
+
+
+
+<br />
+
+
+
+<br />
+
+
+
+<br />
+
+
+
+<br />
+
+
+###### Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as approdd
 
-## Licensedddddd
+###### License
 [MIT](https://choosealicense.com/licenses/mit/)

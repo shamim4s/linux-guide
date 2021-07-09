@@ -131,7 +131,7 @@ It will ask you for confirmation again type
 
 
 <br />
-## Finally your Ubuntu is now Ubuntu Minimal version...
+#Finally your Ubuntu is now Ubuntu Minimal version...
 
 
 <br />
@@ -152,5 +152,5 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 Please make sure to update tests as approdd
 
-## Licensedddddd
+## License
 [MIT](https://choosealicense.com/licenses/mit/)

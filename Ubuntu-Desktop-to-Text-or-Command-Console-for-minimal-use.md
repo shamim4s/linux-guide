@@ -17,9 +17,9 @@ Press **Enter** ,This opens Grub boot loader config file with text editor
 
 Do below changes:
 
-Comment the line **GRUB_CMDLINE_LINUX_DEFAULT=”quiet splash”**, by adding **#** at the beginning, which will disable the Ubuntu GUI screen.
-Change **GRUB_CMDLINE_LINUX=””** to **GRUB_CMDLINE_LINUX=”text”**, this makes Ubuntu boot directly into **Text Mode**.
-Uncomment this line **#GRUB_TERMINAL=console**, by removing the # at the beginning, this makes Grub Menu into real black & white Text Mode (without background image)
+Comment the line ```GRUB_CMDLINE_LINUX_DEFAULT=”quiet splash”```, by adding ```#```at the beginning, which will disable the Ubuntu GUI screen.
+Change ```GRUB_CMDLINE_LINUX=””``` to ```GRUB_CMDLINE_LINUX=”text”```, this makes Ubuntu boot directly into ```Text Mode```.
+Uncomment this line ```#GRUB_TERMINAL=console```, by removing the # at the beginning, this makes Grub Menu into real black & white Text Mode (without background image)
 
 **Now Save the changes By ```Ctrl+X``` , then ```Y```, Then ```Enter```**
 
@@ -27,9 +27,9 @@ Uncomment this line **#GRUB_TERMINAL=console**, by removing the # at the beginni
 After saved the changes, update grub via command:
 
 ``` 
-	sudo update-grub
-	sudo systemctl enable multi-user.target --force
-	sudo systemctl set-default multi-user.target
+sudo update-grub
+sudo systemctl enable multi-user.target --force
+sudo systemctl set-default multi-user.target
 ```
 
 ###### Step 04 :

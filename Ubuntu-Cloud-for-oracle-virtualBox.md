@@ -8,15 +8,15 @@
 ##  Ubuntu ```20.04``` Download For x64 bit cpu 
 [focal-server-cloudimg-amd64.vmdk](https://cloud-images.ubuntu.com/focal/current/focal-server-cloudimg-amd64.vmdk)
 
-## Also you need to download third party lighweight linux like Alpine or Tinycore.
+## Also you need to download third party lighweight linux with Custom password.
 you just need this for reset your root password for the first time.
 
 So i use tinycore linux its very small maybe only 16MB. Download it from here 
-[Core-current.iso](http://tinycorelinux.net/12.x/x86/release/Core-current.iso) 
+[Core-current.iso](https://github.com/shamim4s/linux-guide/raw/master/assets/tinycorelinux.iso) 
 
 
 ## Save downloaded file to your harddrive where you have store virtual machine VMDK or Vdi files..
-for example i have download ```focal-server-cloudimg-amd64.vmdk``` and ```tinycorelinux-Core-current.iso``` files to my ```G:\virtualbox\temp``` location..
+for example i have download ```focal-server-cloudimg-amd64.vmdk``` and ```tinycorelinux.iso``` files to my ```G:\virtualbox\temp``` location..
 
 
 ## For Oracle Virtual Box you need to convert ```VMDK``` to ```vdi```
@@ -58,15 +58,15 @@ Open ```Oracle VirtualBox Manager``` click on ```Ubuntu cloud``` Click on```Sett
 Click on ```Adds hard disk``` click ```Add``` locate your Vdi location and select ```focal-server-cloudimg-amd64.vdi```
 
 
-## Now need to select ```tinycorelinux-Core-current.iso``` as Optical Disk
+## Now need to select ```tinycorelinux.iso``` as Optical Disk
 
-select ```Empty``` drive click on setect ```Optical Disk```  select ```Chosse select Disk file```  then select ```tinycorelinux-Core-current.iso``` file from your downloaded location..
+select ```Empty``` drive click on setect ```Optical Disk```  select ```Chosse select Disk file```  then select ```tinycorelinux.iso``` file from your downloaded location..
 
 
 
 ## Now start you ubuntu cloud VM
 
-It will ask you to select ```tinycorelinux-Core-current.iso``` file for boot. select ```tinycorelinux-Core-current.iso``` from that droup down menu
+It will ask you to select ```tinycorelinux.iso``` file for boot. select ```tinycorelinux.iso``` from that droup down menu
 
 then it will start tinycorelinux... ```Enter``` if its ask for ```Press Enter```
 
@@ -76,13 +76,28 @@ even it will do it automatically...
 ## now you need to mount your ubuntu cloud disk
 
 on that tinycorelinux terminal need to create a folder for mount disk
-```sudo mkdir /home/sda1```
+```sudo mount /dev/sda1 /mnt/sda1```
 
-now you need to check disk list which disk you need to mount by this command
-```fdisk -l```
+then
 
-you will see the disk location ```/dev/sda``` so you need to mount first partition from that disk by this command
-```sudo mount /dev/sda1 /home/sda1```
+```sudo mount /dev/sda1 /mnt/sda1```
+
+
+now you need to copy custom password file to your Ubuntu 
+```sudo cp /mnt/sr0/boot/shadow /mnt/sda1/etc```
+
+## now need to remove tinycorelinux.iso from vm machine
+
+Power off your Ubuntu Cloud virtual machine and open Oracle VM manager.
+Select ```Ubuntu Cloud``` Machine then select ```Settings``` then select ```storage``` then select ```tinycorelinux.iso``` from ```Controller:IDE``` then remove ```tinycorelinux.iso```
+
+
+## Now start your Ubuntu Cloud VM
+Now you can start your ```Ubuntu Cloud VM``` 
+your login detail will be 
+user 	 : ```root```
+password : ```Shamim4s```
+
 
 
 
@@ -104,7 +119,6 @@ you will see the disk location ```/dev/sda``` so you need to mount first partiti
 
 
 <br />
-#Finally your Ubuntu is now Ubuntu Minimal version...
 
 
 <br />

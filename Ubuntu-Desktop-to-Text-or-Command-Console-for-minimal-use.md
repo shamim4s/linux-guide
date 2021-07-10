@@ -5,7 +5,7 @@ This simple tutorial will show you how to boot your Ubuntu system directly into 
 ## To get started
 
 ###### Step 01 : 
-press Ctrl+Alt+T to open terminal. When it opens, follow the below steps
+press ```Ctrl+Alt+T``` to open terminal. When it opens, follow the below steps
 
 ```bash
 sudo nano /etc/default/grub

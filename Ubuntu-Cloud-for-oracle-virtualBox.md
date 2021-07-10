@@ -116,7 +116,9 @@ Now you can start your ```Ubuntu Cloud VM```
 your login detail will be 
 <br />
 user 	 : ```root```
+<br />
 password : ```Shamim4s```
+<br />
 First "```S```" Should be Capital..
 <br />
 <p align="left"> <img src="https://github.com/shamim4s/linux-guide/raw/master/assets/cloud/15ubuntu.JPG" /> </p>

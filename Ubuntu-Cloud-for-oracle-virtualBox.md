@@ -114,13 +114,16 @@ Select ```Ubuntu Cloud``` Machine then select ```Settings``` then select ```stor
 ## Now start your Ubuntu Cloud VM
 Now you can start your ```Ubuntu Cloud VM``` 
 your login detail will be 
+<br />
 user 	 : ```root```
 password : ```Shamim4s```
-
+First "```S```" Should be Capital..
+<br />
 <p align="left"> <img src="https://github.com/shamim4s/linux-guide/raw/master/assets/cloud/15ubuntu.JPG" /> </p>
-
-## First "```S```" Should be Capital.. you can change password after login Ubuntu Cloud by this command
-
+<br />
+<br />
+you can change password after login Ubuntu Cloud by this command
+<br />
 ```passwd root```
 
 

@@ -126,6 +126,7 @@ First "```S```" Should be Capital..
 <br />
 you can change password after login Ubuntu Cloud by this command
 <br />
+
 ```passwd root```
 
 

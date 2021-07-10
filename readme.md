@@ -1,7 +1,9 @@
 ## How to Boot Ubuntu into Text Mode / Console / Command Line for low-spec Computer On Oracle Virtual Box
 <br />
 <br />
+
 > ## Method 01 : 
+
 > [Ubuntu Desktop to Text or Command Console for minimal use](https://github.com/shamim4s/linux-guide/blob/master/Ubuntu-Desktop-to-Text-or-Command-Console-for-minimal-use.md)
 
 > ## Method 02 :

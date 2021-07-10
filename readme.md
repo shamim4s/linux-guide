@@ -3,11 +3,9 @@
 <br />
 
 > ## Method 01 : 
-
 > [Ubuntu Desktop to Text or Command Console for minimal use](https://github.com/shamim4s/linux-guide/blob/master/Ubuntu-Desktop-to-Text-or-Command-Console-for-minimal-use.md)
 
 > ## Method 02 :
-
 > ###### Best for low spec Computer...
 > [How to Run Ubuntu Cloud minimal on VMware or Oracle VirtualBOX](https://github.com/shamim4s/linux-guide/blob/master/Ubuntu-Cloud-for-oracle-virtualBox.md)
 <br />

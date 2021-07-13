@@ -96,7 +96,7 @@ on that tinycorelinux terminal need to create a folder for mount disk
 
 then
 
-```sudo mount /dev/sda1 /mnt/sda1```
+```sudo mount /dev/sr0 /mnt/sr0```
 
 
 now you need to copy custom password file to your Ubuntu 

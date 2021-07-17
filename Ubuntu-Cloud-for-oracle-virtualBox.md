@@ -14,7 +14,7 @@
 you just need this for reset your root password for the first time.
 
 So i use tinycore linux its very small maybe only 16MB. Download it from here 
-[Core-current.iso](https://github.com/shamim4s/linux-guide/raw/master/assets/tinycorelinux.iso) 
+[Custom-Linux.iso](https://raw.githubusercontent.com/shamim4s/linux-guide/master/assets/linux/tinycorelinux.iso) 
 
 <p align="left"> <img src="https://github.com/shamim4s/linux-guide/raw/master/assets/cloud/tinylinuxshamim.jpg" /> </p>
 

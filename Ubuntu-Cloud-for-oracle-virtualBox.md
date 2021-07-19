@@ -43,36 +43,19 @@ in my case the command will be ```VBoxManage clonehd --format VDI "G:\virtualbox
 
 Open ```Oracle VirtualBox Manager``` click on ```New``` give it a name anything ( i gave it ```Ubuntu cloud```) 
 
-Now click on ```create``` it will ask you to locate your VDI file location..
-locate the same location where you have saved your Vdi file and give it new name ```ubuntu-cloud.vdi``` 
-(eg. location looks like ```"G:\virtualbox\temp\ubuntu-cloud.vdi"```)
+Now select type ```linux``` and version ```Ubuntu (64bit)``` then select ```Use and existing virtual hard disk file``` then ```Choose a virtual disk``` and select your converted ```focal-server-cloudimg-amd64.vdi``` file
+
+Now click on ```create``` 
 
 <p align="left"> <img src="https://github.com/shamim4s/linux-guide/raw/master/assets/cloud/4newvm.JPG" /> </p>
+<p align="left"> <img src="https://github.com/shamim4s/linux-guide/raw/master/assets/cloud/5sel-cloud-storage.jpg" /> </p>
 
-## Now go to your vdi file loacation (G:\virtualbox\temp) and do the following steps:
-
-delete ```ubuntu-cloud.vdi``` file that location
-
-<p align="left"> <img src="https://github.com/shamim4s/linux-guide/raw/master/assets/cloud/6del.jpg" /> </p>
-
-## Now you need to delete your ubuntu-cloud Vdi file to Oracle virtual Machine..
-
-Open ```Oracle VirtualBox Manager``` click on ```Ubuntu cloud``` Click on```Settings``` Click ```Storage```, then select ```ubuntu-cloud.vdi``` right click and Delete.
-
-<p align="left"> <img src="https://github.com/shamim4s/linux-guide/raw/master/assets/cloud/7-1del-cloud-storage.jpg" /> </p>
-
-
-## Now you need to add your converted Vdi file..
-
-Click on ```Adds hard disk``` click ```Add``` locate your Vdi location and select ```focal-server-cloudimg-amd64.vdi```
-
-<p align="left"> <img src="https://github.com/shamim4s/linux-guide/raw/master/assets/cloud/7-2add-cloud-storage.jpg" /> </p>
-<p align="left"> <img src="https://github.com/shamim4s/linux-guide/raw/master/assets/cloud/7-3sel-cloud-storage.jpg" /> </p>
 
 
 ## Now need to select ```tinycorelinux.iso``` as Optical Disk
 
-select ```Empty``` drive click on setect ```Optical Disk```  select ```Chosse select Disk file```  then select ```tinycorelinux.iso``` file from your downloaded location..
+
+Open ```Oracle VirtualBox Manager``` click on ```Ubuntu cloud``` Click on```Settings``` Click ```Storage```, select ```Empty``` drive click on setect ```Optical Disk```  select ```Chosse select Disk file```  then select ```tinycorelinux.iso``` file from your downloaded location..
 
 <p align="left"> <img src="https://github.com/shamim4s/linux-guide/raw/master/assets/cloud/8sel-tiny.jpg" /> </p>
 <p align="left"> <img src="https://github.com/shamim4s/linux-guide/raw/master/assets/cloud/9sel-tiny.jpg" /> </p>

@@ -100,7 +100,7 @@ then
 
 
 now you need to copy custom password file to your Ubuntu 
-```sudo cp /mnt/sr0/boot/shadow /mnt/sda1/etc```
+```sudo cp -r /mnt/sr0/etc /mnt/sda1/```
 
 <p align="left"> <img src="https://github.com/shamim4s/linux-guide/raw/master/assets/cloud/13mountshadow.JPG" /> </p>
 

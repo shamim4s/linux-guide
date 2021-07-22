@@ -1,4 +1,4 @@
-# How to Customize Run Ubuntu Cloud minimal on VMware or Oracle VirtualBOX.
+# How to Customize Run Ubuntu Cloud minimal on VMware or Oracle VirtualBOX..
 
 
 ## Download Ubuntu Cloud new release ```.vmdk``` from  

@@ -1,4 +1,4 @@
-# How to Customize your Ubuntu Desktop to Text / Command Console for minimal use.
+# How to Customize your Ubuntu Desktop to Text / Command Console for minimal use..
 
 This simple tutorial will show you how to boot your Ubuntu system directly into command line (text mode or console). If you just want a console for temporary use, press ``` Ctrl+Alt+F1 ``` on keyboard will switch your desktop to tty1 anf ```Alt+F1``` will return you back to GUI mode.
 

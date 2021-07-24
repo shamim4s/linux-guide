@@ -2,7 +2,7 @@
 
 ___________________________________________________________________________________________________________________________
 
-[![install ubuntu cloud on VirtualBox](https://github.blog/wp-content/uploads/2021/05/GitHub-video-upload-GA_fig-3.png)](https://youtu.be/HWb6kbREMZU)
+[![install ubuntu cloud on VirtualBox](https://github.com/shamim4s/linux-guide/raw/master/assets/cloud/ubuntucloud-vmbox.jpg)](https://youtu.be/HWb6kbREMZU)
 ___________________________________________________________________________________________________________________________
 
 ## Download Ubuntu Cloud new release ```.vmdk``` from  

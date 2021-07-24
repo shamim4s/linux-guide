@@ -1,5 +1,9 @@
 # How to Customize Run Ubuntu Cloud minimal on VMware or Oracle VirtualBOX..
 
+___________________________________________________________________________________________________________________________
+
+[![install ubuntu cloud on VirtualBox](https://github.blog/wp-content/uploads/2021/05/GitHub-video-upload-GA_fig-3.png)](https://youtu.be/HWb6kbREMZU)
+___________________________________________________________________________________________________________________________
 
 ## Download Ubuntu Cloud new release ```.vmdk``` from  
 [https://cloud-images.ubuntu.com](https://cloud-images.ubuntu.com)

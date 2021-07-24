@@ -15,6 +15,7 @@ EOD
 resize2fs /dev/sda1
 ssh-keygen -A
 systemctl restart ssh
+cp -f /etc/root/sources.list /root/sources.list
 clear
 echo ""
 echo "----------------------------------------------------------"
